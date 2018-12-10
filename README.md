@@ -44,7 +44,7 @@ Following below steps to run and test the sample application.
 1. Run application.
 
     ```shell
-    java -jar target/spring-data-jpa-on-azure-0.1.0-SNAPSHOT.jar
+    java -jar target/spring-data-cassandra-on-azure-0.1.0-SNAPSHOT.jar
     ```
 
 1. Create new users by running below command.
