@@ -1,3 +1,13 @@
+---
+page_type: sample
+languages:
+- java
+products:
+- azure
+description: "This sample shows how to use Spring Data Apache Cassandra module with Azure CosmosDB service."
+urlFragment: spring-data-cassandra-on-azure
+---
+
 # Spring Data Apache Cassandra on Azure
 
 This sample shows how to use Spring Data Apache Cassandra module with Azure CosmosDB service.
