@@ -36,6 +36,7 @@ This sample shows how to use Spring Data Apache Cassandra module with Azure Cosm
 
     ```
     spring.data.cassandra.contact-points=<replace with your Cassandra contact point>
+    spring.data.cassandra.local-datacenter=<replace with the default write region associated with Cassandra contact point>
     spring.data.cassandra.port=10350
     spring.data.cassandra.username=<replace with your Cassandra account user name>
     spring.data.cassandra.password=<replace with your Cassandra account password>

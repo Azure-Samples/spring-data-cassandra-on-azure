@@ -6,7 +6,6 @@
 
 package com.microsoft.azure.samples.spring;
 
-import com.datastax.driver.core.utils.UUIDs;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
@@ -14,16 +13,17 @@ import org.springframework.web.bind.annotation.*;
 import java.util.Optional;
 import java.util.UUID;
 
+import com.datastax.oss.driver.api.core.uuid.Uuids;
 
 @Controller
-@RequestMapping(path="/pets")
+@RequestMapping(path = "/pets")
 public class PetController {
     @Autowired
     private PetRepository petRepository;
 
     @PostMapping
     public @ResponseBody String createPet(@RequestBody Pet pet) {
-        pet.setId(UUIDs.timeBased());
+        pet.setId(Uuids.timeBased());
         petRepository.save(pet);
         return String.format("Added %s.", pet);
     }
