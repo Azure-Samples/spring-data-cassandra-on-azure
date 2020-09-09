@@ -26,7 +26,7 @@ public class PetController {
     private PetRepository petRepository;
 
     /**
-     *  createPet used the spring framework to create the sql statement using the method save(...).
+     * createPet used the spring framework to create the sql statement using the method save(...).
      * @param pet
      * @return  String like "Added ......"
      */
@@ -38,7 +38,7 @@ public class PetController {
     }
 
     /**
-     *  getAllPets used the spring framework to create the sql statement using the method findAll().
+     * getAllPets used the spring framework to create the sql statement using the method findAll().
      * @return all pets you created
      */
     @GetMapping
