@@ -4,13 +4,13 @@ languages:
 - java
 products:
 - azure
-description: "This sample shows how to use Spring Data Apache Cassandra module with Azure CosmosDB service."
+description: "This sample shows how to use Spring Data Apache Cassandra module with Azure Cosmos DB service."
 urlFragment: spring-data-cassandra-on-azure
 ---
 
 # Spring Data Apache Cassandra on Azure
 
-This sample shows how to use Spring Data Apache Cassandra module with Azure CosmosDB service.
+This sample shows how to use Spring Data Apache Cassandra module with Azure Cosmos DB service.
 
 ## TOC
 
@@ -27,7 +27,7 @@ This sample shows how to use Spring Data Apache Cassandra module with Azure Cosm
 
 ## Build
 
-1. Create a Cassandra account with Azure CosmosDB by following tutorial at 
+1. Create a Cassandra account with Azure Cosmos DB by following tutorial at 
 [here](https://docs.microsoft.com/en-us/azure/cosmos-db/create-cassandra-java#create-a-database-account).
 
 1. Use [Data Explorer](https://docs.microsoft.com/en-us/azure/cosmos-db/data-explorer) from Azure Portal to create a keyspace named `mykeyspace`. 
